@@ -34,10 +34,10 @@ git clone [https://github.com/SiddheshKukade/Movie-review-full-stack-java-spring
  
 
 2. **Navigate to the backend directory:**
- 
+ ```
 cd movie-review-app/backend
 
- 
+ ```
 
 3. **Set up MongoDB Atlas:**
 - Create an account on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -47,23 +47,23 @@ cd movie-review-app/backend
 - Replace `<mongo_connection_string>` in `application.properties` with your MongoDB connection string.
 
 5. **Run the Spring Boot Application:**
- 
+ ```
 ./mvnw spring-boot:run
  
-
+```
 6. The backend server should now be running at `http://localhost:8080`.
 
 ### Frontend (ReactJS)
 
 1. **Navigate to the frontend directory:**
- 
+ ```
 cd movie-review-app/frontend
- 
+ ```
 
 2. **Install dependencies:**
- 
+ ```
 npm install
- 
+ ```
 
 3. **Set up environment variables:**
 - Create a `.env` file in the frontend directory.
@@ -73,9 +73,10 @@ REACT_APP_API_URL=<backend_api_url>
  
 
 4. **Run the React App:**
-Save to grepper
+
+```
 npm start
- 
+ ```
 
 5. The React app should now be running at `http://localhost:3000`.
 
@@ -84,3 +85,4 @@ npm start
 If you want to contribute to this project and make it better, your help is very welcome. Create a pull request with your proposed changes, and we will review it as soon as possible.
 
 Happy coding! 🚀
+@SiddheshKukade
